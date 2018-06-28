@@ -27,6 +27,10 @@ class CursoController extends Controller {
     $cod_curso = Request::input('cod_curso');
     $nome_curso = Request::input('nome_curso');
     $instituicao_ensino = Request::input('instituicao_ensino');
+
+    if(empty($cod_curso) || empty($nome_curso) || empty($instituicao_ensino)){
+        return view('curso_editado_erro');
+    }
         
         $sql = 'update curso set cod_curso = ?, nome_curso = ?, instituicao_ensino = ? where curso_id ='.$id;
         DB::update($sql, array($cod_curso, $nome_curso, $instituicao_ensino));
