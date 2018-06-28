@@ -1,14 +1,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <title>Editar Curso</title>
+        <title>Adicionar aluno</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
                 
         <div class="container" align="center">
             <div class="alert alert-danger" role="alert">
-                Os parâmetros não podem ser vazios!
+                O curso informado não está disponível!
             </div>
         </div>
         <br>

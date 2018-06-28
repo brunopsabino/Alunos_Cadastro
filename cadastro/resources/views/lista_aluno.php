@@ -15,7 +15,7 @@
         </div>
 
         <div class="container" align="center">
-            <a href="/cursos/adicionar">
+            <a href="/alunos/adicionar">
                 <button type="button" class="btn btn-primary btn-sm">Adicionar novo Aluno</button>
             </a>
         </div>
@@ -43,10 +43,10 @@
                                     <td><?= $a->semestre ?></td>
                                     <td><?= $a->status_aluno ?></td>
                                     <td>
-                                        <a href="/cursos/editar/<?= $a->aluno_id ?>">
+                                        <a href="/alunos/editar/<?= $a->aluno_id ?>">
                                             <button type="button" class="btn btn-primary btn-sm">Alterar</button>    
                                         </a>
-                                        <a href="/cursos/deletar/<?= $a->aluno_id ?>">
+                                        <a href="/alunos/deletar/<?= $a->aluno_id ?>">
                                             <button type="button" class="btn btn-danger btn-sm">Deletar</button>    
                                         </a>
                                     </td>

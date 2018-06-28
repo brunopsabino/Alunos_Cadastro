@@ -30,3 +30,12 @@ Route::get('/cursos/adicionado', 'CursoController@adiciona');
 
 //Rotas para entidade aluno
 Route::get('/alunos', 'AlunoController@lista');
+
+Route::get('/alunos/adicionar', 'AlunoController@adiciona_aluno');
+Route::get('/alunos/adicionado', 'AlunoController@adiciona');
+
+Route::get('/alunos/deletar/{id}', 'AlunoController@deleta_aluno')->where('id', '[0-9]+');
+Route::get('/alunos/deletado/{id}', 'AlunoController@deleta')->where('id', '[0-9]+');
+
+Route::get('/alunos/editar/{id}', 'AlunoController@edita_aluno')->where('id', '[0-9]+');
+Route::get('/alunos/editado/{id}', 'AlunoController@edita')->where('id', '[0-9]+');
