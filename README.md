@@ -8,7 +8,7 @@
 
 # Instruções
  ### Realizar clone do projeto Git: 
--- https://github.com/brunopsabino/Alunos_Cadastro.git
+- https://github.com/brunopsabino/Alunos_Cadastro.git
 
 ### Criar Banco de Dados MySQL local
 - usuario: root
