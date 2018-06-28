@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
 
 //Rotas para a entidade curso
@@ -26,3 +26,7 @@ Route::get('/cursos/deletado/{id}', 'CursoController@deleta')->where('id', '[0-9
 
 Route::get('/cursos/adicionar', 'CursoController@adiciona_curso');
 Route::get('/cursos/adicionado', 'CursoController@adiciona');
+
+
+//Rotas para entidade aluno
+Route::get('/alunos', 'AlunoController@lista');
