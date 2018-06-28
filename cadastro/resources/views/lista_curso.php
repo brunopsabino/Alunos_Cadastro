@@ -26,6 +26,7 @@
                     <table class="table table-hover">
                         <thead class="thead-light">
                             <tr>
+                                <th scope="col">ID do Curso</th>
                                 <th scope="col">Código do Curso</th>
                                 <th scope="col">Nome do Curso</th>
                                 <th scope="col">Instituição de Ensino</th>
@@ -35,6 +36,7 @@
                         <tbody>
                             <?php foreach ($cursos as $c): ?>
                                 <tr>
+                                    <td><?= $c->curso_id ?></td>
                                     <td><?= $c->cod_curso ?></td>
                                     <td><?= $c->nome_curso ?></td>
                                     <td><?= $c->instituicao_ensino ?></td>

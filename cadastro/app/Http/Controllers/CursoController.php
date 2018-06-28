@@ -47,6 +47,13 @@ class CursoController extends Controller {
    }
 
    public function deleta($id){
+
+        //Checa se existem alunos adicionados ao curso antes de excluir
+        $check_curso = DB::table('aluno')->where('curso', $id)->count();
+            if($check_curso > 0){
+                return view('curso_deletado_erro');
+            }
+
         DB::delete('delete from curso where curso_id = ?',[$id]);
         return view('curso_deletado');
     }
