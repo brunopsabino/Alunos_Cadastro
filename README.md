@@ -1,7 +1,3 @@
-# Alunos_Cadastro
-Sistema de Cadastro de Alunos e Cursos
-Desenvolvido por: Bruno Sabino - bruno.p.sabino@gmail.com
-
 # Tecnologias Utilizadas
 - Framework Laravel 5.6
 - MySQL
@@ -12,22 +8,22 @@ Desenvolvido por: Bruno Sabino - bruno.p.sabino@gmail.com
 
 # Instruções
 - Realizar clone do projeto Git: 
-https://github.com/brunopsabino/Alunos_Cadastro.git
+-- https://github.com/brunopsabino/Alunos_Cadastro.git
 
 - Criar Banco de Dados MySQL local
-usuario: root
-senha: 
+-- usuario: root
+-- senha: 
 
 - Criar schema cadastro_alunos_laravel
 
 - Realizar Criação das tabelas (aluno e curso) do Banco de Dados com o Migrate:
-php artisan migrate
+-- php artisan migrate
 
 - Popular tabelas do Banco de Dados com o Seeds
-php artisan db:seed
+-- php artisan db:seed
 
 - Subir aplicação
-php artisan serve
+-- php artisan serve
 
 - Acessar aplicação
-http://localhost:8000/
+-- http://localhost:8000/
