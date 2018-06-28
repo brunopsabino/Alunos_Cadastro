@@ -7,23 +7,24 @@
 - Git
 
 # Instruções
-- Realizar clone do projeto Git: 
+ ### Realizar clone do projeto Git: 
 -- https://github.com/brunopsabino/Alunos_Cadastro.git
 
-- Criar Banco de Dados MySQL local
--- usuario: root
--- senha: 
+### Criar Banco de Dados MySQL local
+- usuario: root
+- senha: 
 
-- Criar schema cadastro_alunos_laravel
+### Criar schema cadastro_alunos_laravel
+- CREATE SCHEMA `cadastro_alunos_laravel`;
 
-- Realizar Criação das tabelas (aluno e curso) do Banco de Dados com o Migrate:
--- php artisan migrate
+### Realizar Criação das tabelas com o Migrate:
+- php artisan migrate
 
-- Popular tabelas do Banco de Dados com o Seeds
--- php artisan db:seed
+### Popular tabelas do Banco de Dados com o Seeds
+- php artisan db:seed
 
-- Subir aplicação
--- php artisan serve
+### Subir aplicação
+- php artisan serve
 
-- Acessar aplicação
--- http://localhost:8000/
+### Acessar aplicação
+- http://localhost:8000/
